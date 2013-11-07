@@ -1,0 +1,8 @@
+
+GET     /widget/:id                   controllers.Widgets.get(id:Long)
+GET     /find/widget/:name            controllers.Widgets.find(name:String)
+POST    /widget                       controllers.Widgets.create
+PUT     /widget/:id                   controllers.Widgets.update(id:Long)
+DELETE  /widget/:id                   controllers.Widgets.delete(id:Long)
+
+GET     /*file                        controllers.Assets.at(path="/public", file)
